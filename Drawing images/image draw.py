@@ -8,6 +8,7 @@ draw = ImageDraw.Draw(im)
 i = 0
 x = 0
 y = 0
+b = 1
 while i < 1440000:
     r, g, b = image.getpixel((x, y))
     print(r, g, b)
